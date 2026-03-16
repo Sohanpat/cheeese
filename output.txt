@@ -1,0 +1,22 @@
+=== Canadian Cheese Dataset Analysis ===
+
+--- Calculation 1: Milk Treatment Type ---
+Number of cheeses using Pasteurized milk : 800
+Number of cheeses using Raw milk          : 115
+
+--- Calculation 2: Organic Cheeses with Moisture > 41.0% ---
+Count : 53
+
+--- Calculation 3: Most Common Animal Milk Type in Canada ---
+Most common type : Cow
+Full breakdown:
+  Cow                  : 744
+  Goat                 : 214
+  Ewe                  : 62
+  Cow and Goat         : 13
+  Ewe and Cow          : 4
+  Ewe and Goat         : 2
+  Buffalo Cow          : 2
+  Goat and Ewe         : 1
+
+=== End of Report ===

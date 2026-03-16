@@ -1,0 +1,29 @@
+Running CheeseAnalyzer tests...
+
+  PASS  parseRow simple field count
+  PASS  parseRow field 0
+  PASS  parseRow quoted comma field count
+  PASS  parseRow quoted field value
+  PASS  parseRow field after quoted
+  PASS  parseRow escaped quote field count
+  PASS  parseRow escaped quote value
+  PASS  Cheese milkTreatment trimmed
+  PASS  Cheese organic
+  PASS  Cheese moisture
+  PASS  Cheese milkType trimmed
+  PASS  countPasteurized returns 5
+  PASS  countRawMilk returns 2
+  PASS  countPasteurized is case-insensitive
+  PASS  countPasteurized on empty list
+  PASS  countRawMilk on empty list
+  PASS  countOrganicHighMoisture returns 2
+  PASS  moisture exactly 41.0 is NOT > 41
+  PASS  non-organic with high moisture not counted
+  PASS  mostCommonMilkType returns Cow
+  PASS  mostCommonMilkType on empty list returns Unknown
+  PASS  milkTypeCounts Cow = 3
+  PASS  milkTypeCounts Goat = 2
+  PASS  milkTypeCounts Ewe = 1
+  PASS  milkTypeCounts Buffalo = 1
+
+Results: 25 passed, 0 failed out of 25 tests.
